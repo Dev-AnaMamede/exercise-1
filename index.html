@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/ed_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="location">
+      <div class="location-timezone">Timezone</div>
+      <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+      <div class="temperature-units">
+        <h2 id="temperature-degree">33</h2>
+        <span class="temperature-conversion"> F </span>
+      </div>
+      <div class="temperature-description">It's f*cking hot!</div>
+    </div>
+    <script src="src/skycons.js"></script>
+    <script src="src/ed_java.js"></script>
+  </body>
+</html>
